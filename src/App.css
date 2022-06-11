@@ -1,5 +1,10 @@
+@import '~antd/dist/antd.css';
+@import 'antd-button-color/dist/css/style.css';
+
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +40,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.edit{
+  width: 100%;
+  background-color: red;
+  height: 100vh;
 }
